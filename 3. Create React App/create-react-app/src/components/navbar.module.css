@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(39, 37, 37);
+    gap: 20px;
+}
+
+nav h2 {
+    color: white;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left h1 {
+    padding-left: 10px;
+    color: #61dafb;
+}

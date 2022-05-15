@@ -1,0 +1,17 @@
+.mainContainer {
+    color: white;
+    margin: 50px 20px 10px 100px;
+}
+
+.mainContainer ol {
+    list-style-type: disc;
+}
+
+.mainContainer li {
+    padding: 10px;
+}
+
+.mainContainer li::marker {
+   color: rgb(127, 183, 252);
+   font-size: 1.2rem;
+}
