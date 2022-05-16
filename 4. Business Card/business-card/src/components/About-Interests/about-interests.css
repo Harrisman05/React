@@ -1,0 +1,12 @@
+.about-interests-container {
+    padding: 10px;
+}
+
+.about-interests-container p,li {
+    font-size: 12px;
+}
+
+.about-interests-container li {
+    list-style-position: inside;
+}
+

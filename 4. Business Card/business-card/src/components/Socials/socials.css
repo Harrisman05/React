@@ -1,0 +1,25 @@
+.socials-container {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.socials-container button {
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.socials-container button:hover {
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
+.socials-container button:nth-child(1) {
+    background-color: rgb(224, 179, 179);
+}
+
+.socials-container button:nth-child(2) {
+    background-color: aqua;
+}
+
