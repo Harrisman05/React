@@ -1,0 +1,53 @@
+.static-images-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 50px auto 0 auto;
+}
+
+#bowl {
+    grid-row-start: 1;
+    grid-row-end: -1;
+    align-self: center;
+    margin-top: -20%;
+    margin-left: 30%;
+}
+
+#ballet {
+    justify-self: center;
+    margin-top: -25%;
+}
+
+#rice {
+    margin-top: 25%;
+}
+
+#keyboard {
+    margin-left: -30%;
+}
+
+#swim {
+    margin-left: -30%;
+    margin-top: -25%;
+}
+
+#meditate {
+    margin-top: 30px;
+    margin-left: -55%;
+}
+
+#sing {
+    margin-left: -55%;
+}
+
+.hero-container h1 {
+    margin: 20px 0 20px 50px;
+    font-size: 50px;
+}
+
+.hero-container h3 {
+    margin-left: 50px;
+    width: 450px;
+}

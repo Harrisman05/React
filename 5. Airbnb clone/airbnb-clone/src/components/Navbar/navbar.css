@@ -1,0 +1,12 @@
+nav {
+    border-bottom: solid 1px grey;
+    box-shadow: 5px 5px 20px grey;
+    padding: 25px;
+}
+
+nav img {
+    position: relative;
+    height: 100px;
+    max-height: 20vw;
+    left: 10px;
+}
