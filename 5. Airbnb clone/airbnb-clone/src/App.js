@@ -6,9 +6,30 @@ import Zenny from './assets/card-image.png'
 import Messi from './assets/Lionel_Messi.jpg'
 import Tony from './assets/Tony_Hawk.jpg'
 import Michael from './assets/Michael_Scott.png'
+import data from './data.js';
+console.log(data);
 
 function App() {
+   const pokemon = ["Bulbasaur", "Charmander", "Squirtle"];
+
+   const pokemonMapped = pokemon.map((element) => {
+      return <h1>{element}</h1>
+   })
+
+   const cardMapped = data.map((element) => {
+      return (
+         <Card
+            img = {element.image}
+            status = {element.status}
+            rating = {element.rating}
+            name = {element.name}
+            price = {element.price}
+         />
+      ) 
+   });
+
   return (
+
   <div>  
    <Navbar/>
    <Hero/>
@@ -42,8 +63,11 @@ function App() {
       price = "$400"
    />
    </div>
+   {pokemonMapped}
+   {cardMapped}
   </div>
   );
 }
+
 
 export default App;
